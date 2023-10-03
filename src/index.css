@@ -1,0 +1,9 @@
+/*----- ROOT -----*/
+html, 
+body,
+#root {
+  background-color: var(--dark);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
