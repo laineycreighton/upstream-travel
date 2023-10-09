@@ -1,0 +1,11 @@
+/* COLORS */
+:root {
+    --black: #000000;
+    --light: #BCE0CE;
+    --accent: #8CCDAB;
+  }
+
+/* HOME */
+.home {
+  background-color: var(--light);
+}

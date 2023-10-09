@@ -1,8 +1,15 @@
+/* COLORS */
+:root {
+  --black: #000000;
+  --light: #BCE0CE;
+  --accent: #8CCDAB;
+}
+
 /*----- ROOT -----*/
 html, 
 body,
 #root {
-  background-color: var(--dark);
+  background-color: var(--light);
   padding: 0;
   margin: 0;
   height: 100%;

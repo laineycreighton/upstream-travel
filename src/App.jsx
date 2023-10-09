@@ -2,21 +2,19 @@
 import { Outlet } from "react-router-dom";
 
 //CSS
-import 'normalize.css'
+import 'normalize.css';
 
-//Files
+//Pages
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 //----- EXPORTS -----//
 function App() {
 
   //Return
   return (
-    <div>
+    <div className="app">
       <NavBar />
       <Outlet />
-      <Footer />
     </div>
   )
 }
