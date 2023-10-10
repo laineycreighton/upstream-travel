@@ -9,12 +9,8 @@ export default function NavBar() {
     return (
         <nav className="nav-bar">
             <h2>UpstreamTravel</h2>
-            <div>
-                <Link to="/">Home</Link>
-            </div>
-            <div>
-                <Link to="/about">About Us</Link>
-            </div>
+            <Link className='home-link' to="/">Home</Link>
+            <Link className='about-link' to="/about">About Us</Link>
         </nav>
     );
 }
